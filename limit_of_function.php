@@ -28,8 +28,9 @@ $number_3 = '<form method="post">
         </div>
          </form>';
 echo $number_3;
-$main_menu = '<form name = "quadrati action="main_page.php" method = "post">
-            <input type = "submit" value= "Go to main menu"/>';
+$main_menu = '<form name = "quadrati" action="main_page.php" method = "post">
+            <input type = "submit" value= "Go to main menu"/>
+            </form>';
 echo $main_menu;
 $answer = '<form name = "quadratic equations" action="quadratic equations.php" method = "post">
             <input type = "submit" value= "Test on quadratic equations"/>';

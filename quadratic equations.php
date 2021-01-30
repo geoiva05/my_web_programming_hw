@@ -28,7 +28,11 @@ $number_3 = '<form method="post">
         </div>
          </form>';
 echo $number_3;
-$answer = '<form name = "quadratic equations" action="quadratic equations.php" method = "post">
-            <input type = "submit" value= "Test on quadratic equations"/>';
+$main_menu = '<form name = "quadrati" action="main_page.php" method = "post">
+            <input type = "submit" value= "Go to main menu"/>
+            </form>';
+echo $main_menu;
+$answer = '<form name = "quadratic equations" action="calculate_test1.php" method = "post">
+            <input type = "submit" value= "Test on quadratic equations"/> </form>';
 echo $answer;
 ?>
